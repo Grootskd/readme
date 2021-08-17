@@ -1,9 +1,26 @@
-maximum = int(input(" Please Enter the Maximum Value : "))
-Oddtotal = 0
+include<stdio.h>
 
-for number in range(1, maximum+1):
-    if(number % 2 != 0):
-        print("{0}".format(number))
-        Oddtotal = Oddtotal + number
+int main()
+{
+    int num, count = 1, sum = 0;
 
-print("The Sum of Odd Numbers from 1 to {0} = {1}".format(number, Oddtotal))
+    printf("Enter a integer number\n");
+    scanf("%d", &num);
+
+    while(count <= num)
+    {
+        if(count%2 != 0)
+        {
+            sum = sum + count;
+        }
+        count++;
+    }
+
+    printf("Sum of ODD integer number is %d\n", sum);
+
+    return 0;
+}
+ Output 
+
+Enter the integer :5
+Sum of ODD integer number is 9
