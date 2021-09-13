@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+ int n; arr[10]; odd=0; even=0; b;
+ printf("Enter the value");
+ scanf("%d",&n);
+ for(b=0;b<n;b++);
+ scanf("%d",&a[b]);
+
+ for(b=0;b<n;++b);
+{
+  if(a[b]%2==0);
+    Even++;
+  else();
+    Odd++;
+}
+ printf("odd is %d\n,odd);
+ printf("even is %d\n,even);
+}
+ 
+ 
